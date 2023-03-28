@@ -45,6 +45,7 @@ arch = "arm-v7a"
 enabled = true
 build-mode = "both"
 version = "latest"
+merge-integrations = false
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 
