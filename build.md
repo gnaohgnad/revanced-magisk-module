@@ -1,34 +1,22 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.100.21.apk  
-Patches: revanced-patches-2.166.21.jar  
+Integrations: revanced-integrations-0.101.0.apk  
+Patches: revanced-patches-2.167.0.jar  
 
-YouTube
-==
-- fix: `force-player-button-background` patch removes unintended setting
-- refactor(`enable-old-layout`): no longer changes the version shown in app settings
-- refactor(`enable-old-layout`): now you can configure which version to spoof via the `options.toml` file (default: 17.28.35)
-- refactor(`hide-account-menu`): now you can remove the 'Your videos' and 'Downloads' menus in the library tab
-- refactor(`hide-button-container`): rewrite code, and restore previously removed button removal functionality (`Experimental Flags`)
-- refactor(`hide-category-bar`): add `Hide category bar in search results` setting https://github.com/inotia00/ReVanced_Extended/issues/583
-- crowdin translation update
-`Arabic`, `Bengali`, `Chinese Traditional`, `French`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
+### [2.167.0](https://github.com/revanced/revanced-patches/compare/v2.166.0...v2.167.0) (2023-03-29)
+### Bug Fixes
+* **youtube/remember-playback-speed:**  allow to not remember playback speed ([#1762](https://github.com/revanced/revanced-patches/issues/1762)) ([49ec3e8](https://github.com/revanced/revanced-patches/commit/49ec3e83f18ec4eb180d220c5a7015f8e4feb3a7))
+* **youtube/sponsorblock:** fix segments not skipping during background play ([#1765](https://github.com/revanced/revanced-patches/issues/1765)) ([7620ea1](https://github.com/revanced/revanced-patches/commit/7620ea1752406d703deb15aa0267d4572b1b171a))
+* **youtube/spoof-signature-verification:** fix audio during home feed video playback ([#1754](https://github.com/revanced/revanced-patches/issues/1754)) ([7dd067b](https://github.com/revanced/revanced-patches/commit/7dd067b0e96679fe653c9796bef31d743287b2d0))
+### Features
+* `export-all-activities` patch ([#1751](https://github.com/revanced/revanced-patches/issues/1751)) ([aad6e05](https://github.com/revanced/revanced-patches/commit/aad6e055380f91462d94fc96c4ec17a27e283c64))
+* **reddit:** bump compatibility to `2023.10.0` ([#1772](https://github.com/revanced/revanced-patches/issues/1772)) ([f95ab6e](https://github.com/revanced/revanced-patches/commit/f95ab6e13e70667fdffe479b7292112244e6bb9e))
+* **twitter:** remove `monochrome-icon` patch ([#1786](https://github.com/revanced/revanced-patches/issues/1786)) ([b8bf804](https://github.com/revanced/revanced-patches/commit/b8bf804835e75c9f2c8453c8ce22cfd8d17318ce))
+* **youtube/microg-support:** do not depend on `spoof-signature-verification` patch ([af4e765](https://github.com/revanced/revanced-patches/commit/af4e765ca87c6c979e95bc274b32c764a0a32a88))
+* **youtube/spoof-signature-verification:** automatic signature spoofing ([f1395f4](https://github.com/revanced/revanced-patches/commit/f1395f49fae1c0a00de074d58fa7d81f562d3009))
 
-
-YouTube Music
-==
-- add `certificate-spoof` patch: fix Android Auto connection issue with MicroG builds (Tested on Android Auto DHU) https://github.com/revanced/revanced-patches/pull/1810
-- add `spoof-version` patch: for YT Music users living in Canada. Fix the following issues [r/Vanced](https://www.reddit.com/r/Vanced/comments/qve609/radio_mode_is_always_on_how_do_i_fix_it_question/)
-
-
-※ Compatible ReVanced Manager: v0.0.57
-※ If you want to contribute to the translation, refer below
-
-[Crowdin translation]
-- [European Countries](https://crowdin.com/project/revancedextendedeu)
-- [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-Twitter: 9.81.1-release.0  
+Twitter: 9.82.0-release.0  
 Instagram (arm64-v8a): 276.0.0.26.103  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
