@@ -8,8 +8,8 @@ Patches: revanced-patches-2.168.0.jar
 
   
 **App Versions:**  
-Instagram (arm64-v8a): 276.1.0.26.103  
-Twitter: 9.82.0-release.0  
+Twitter: 9.83.0-release.0  
+Instagram (arm64-v8a): 275.0.0.27.98  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
