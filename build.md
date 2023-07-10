@@ -1,15 +1,13 @@
 CLI: revanced-cli-2.22.0-all.jar  
 Integrations: revanced-integrations-0.112.0.apk  
-Patches: revanced-patches-2.182.0.jar  
+Patches: revanced-patches-2.183.0.jar  
 
-### [2.182.0](https://github.com/revanced/revanced-patches/compare/v2.181.0...v2.182.0) (2023-07-08)
+### [2.183.0](https://github.com/revanced/revanced-patches/compare/v2.182.0...v2.183.0) (2023-07-10)
 ### Bug Fixes
-* **youtube/hide-layout-components:**  hide mix playlists ([33a87bd](https://github.com/revanced/revanced-patches/commit/33a87bd6eac1639687ebdf96ef8924cd674f81e4))
+* **youtube/custom-video-buffer:** remove non functional deprecated patch ([de233e2](https://github.com/revanced/revanced-patches/commit/de233e28246b1716b42bf331d2355ff4beed9564))
+* **youtube/custom-video-speed:** don not implicitly depend on `old-video-quality-menu` patch ([acfda46](https://github.com/revanced/revanced-patches/commit/acfda46bce2558df18a6fa562008e058df5ad31e))
 ### Features
-* **pixiv:** add `hide-ads` patch ([#2578](https://github.com/revanced/revanced-patches/issues/2578)) ([862a7ec](https://github.com/revanced/revanced-patches/commit/862a7ec5b0767c28e79454a44218069d3e9cbac7))
-* remove unnecessary notice ([7e9f0b2](https://github.com/revanced/revanced-patches/commit/7e9f0b2d02e910984f08777fefcd2ad7df6a21ee))
-* **slideforreddit:** add `change-oauth-client-id` patch ([#2571](https://github.com/revanced/revanced-patches/issues/2571)) ([8cd60ee](https://github.com/revanced/revanced-patches/commit/8cd60eea36bd49514ed1c42bf362dce7e9675fca))
-* **youtube:** support version `18.23.35` ([#2461](https://github.com/revanced/revanced-patches/issues/2461)) ([d20fde1](https://github.com/revanced/revanced-patches/commit/d20fde1e57077fe9a943f9782b415d7a0249b083))
+* change patches naming convention ([#2612](https://github.com/revanced/revanced-patches/issues/2612)) ([2dacc45](https://github.com/revanced/revanced-patches/commit/2dacc45f7430f7b3e60a8a2db60c3d6395a2f5cc))
 
   
 **App Versions:**  
